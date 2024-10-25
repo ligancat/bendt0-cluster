@@ -59,7 +59,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "h1:tpDTuaPw0dSVRTYVPd5cQuLpUiYZcjYUg6EAs9ySV6c="
+  sha     = "h1:HajMs3kNAmZP0L8ndLFeiGYWvJ+4ybnJogSZirak4S0="
   retries = 0
   verbose = false
 }
@@ -91,7 +91,7 @@ step "bounce" {
     "console",
   ]
 
-  sha     = "h1:yxJkPWPAOJdotBhbnfY2Y+26rk9QWvV3JXUCC4jU+nk="
+  sha     = "h1:ar1Juoe44Vuy4tQVaALkNRxz4bjMnQDwi4/2ok2Eyco="
   retries = 2
   verbose = false
 }
