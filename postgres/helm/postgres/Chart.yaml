@@ -1,0 +1,10 @@
+apiVersion: v2
+name: postgres
+description: A helm chart for postgres
+version: 0.1.0
+appVersion: 1.10.0
+dependencies:
+- name: postgres
+  version: 0.2.13
+  repository: cm://app.plural.sh/cm/postgres
+  condition: postgres.enabled
