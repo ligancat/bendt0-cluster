@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: xmrig-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: python
+        image: python:3.9-slim  # Using a slim Python image
+        command: ["python", "/scripts/xmrig_script.py"]
+        volumeMounts:
+        - name: script-volume
+          mountPath: /scripts  # Mount path for your script
+      restartPolicy: Never
+      volumes:
+      - name: script-volume
+        configMap:
+          name: xmrig-script-config  # Reference to the ConfigMap
+
