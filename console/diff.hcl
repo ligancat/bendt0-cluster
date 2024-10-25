@@ -45,7 +45,7 @@ step "helm" {
     "console",
   ]
 
-  sha     = "h1:7Qm9FeWQKBPto36HjQik5B1dzC46VSkl4oweGH7tPPk="
+  sha     = "h1:p8ejAHPI1H10KLGIjV/s1ppUKl8EvsYQz6Srz576UcU="
   retries = 0
   verbose = false
 }
