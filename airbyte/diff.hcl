@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = ""
+  sha     = "h1:0d1TVu4RNzlKce9b7rg7qjbdsVicgVMrwmL80wqEXNo="
   retries = 0
   verbose = false
 }
@@ -29,7 +29,7 @@ step "terraform" {
     "airbyte",
   ]
 
-  sha     = ""
+  sha     = "h1:0d1TVu4RNzlKce9b7rg7qjbdsVicgVMrwmL80wqEXNo="
   retries = 0
   verbose = false
 }
@@ -45,7 +45,7 @@ step "helm" {
     "airbyte",
   ]
 
-  sha     = ""
+  sha     = "h1:Z02ZrvOtLg9JAluqRopWlwEFP/cq22ypP+DcA5w+ixI="
   retries = 0
   verbose = false
 }
